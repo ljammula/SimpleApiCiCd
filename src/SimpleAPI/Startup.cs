@@ -36,7 +36,7 @@ namespace SimpleAPI
                 app.UseDeveloperExceptionPage();
             }
 
-            // app.UseHttpsRedirection(); disabling for CI test
+            app.UseHttpsRedirection();
 
             app.UseRouting();
 
